@@ -585,7 +585,60 @@ footer{
     gap:18px;
     margin-top:25px;
 }
+/* ================= SOCIAL BUTTON ================= */
 
+.social-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+    margin-top:25px;
+}
+
+.social-btn{
+    text-decoration:none;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:all .35s ease;
+
+    border:2px solid transparent;
+}
+
+/* Instagram */
+
+.instagram{
+    background:#2c3e50;
+    color:white;
+}
+
+.instagram:hover{
+    background:#8b7355;
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 10px 20px rgba(139,115,85,.25);
+}
+
+/* WhatsApp */
+
+.whatsapp{
+    background:#34495e;
+    color:white;
+}
+
+.whatsapp:hover{
+    background:#8b7355;
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 10px 20px rgba(139,115,85,.25);
+}
 .social-circle a{
 
     width:65px;
